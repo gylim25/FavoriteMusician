@@ -7,7 +7,25 @@ body {
 
 }
 
+header {
+	font-family: Montserrat SemiBold;
+}
+
+h1 {
+	font-family: Montserrat SemiBold;
+	font-size: 100px;
+}
+
 nav ul {
 	list-style-type: none;
 	text-align:right;
+}
+
+nav li {
+	display: inline;
+	color: #6DBDC9;
+}
+
+a {
+	text-decoration: none;
 }
