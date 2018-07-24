@@ -1,0 +1,13 @@
+/* Stylesheet for Gorillaz Webpage */
+
+body {
+	background-color: #F5D1D1;
+	font-family: 'Montserrat', sans-serif;
+	color: #6DBDC9;
+
+}
+
+nav ul {
+	list-style-type: none;
+	text-align:right;
+}
