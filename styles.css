@@ -23,6 +23,7 @@ h1 {
 	font-size: 100px;
 	margin:0;
 	margin-left: 10px;
+	text-decoration: none;
 }
 
 nav ul {
@@ -44,8 +45,20 @@ a {
 	text-decoration: none;
 }
 
+a:hover {
+	color: white;
+}
+
 p {
 	font-family: Raleway Medium;
+	font-size: 28px;
+	color: white;
+}
+
+.blueback {
+	background-color: #6CBDC9;
+	width: 100%;
+	max-width: 1100px;
 }
 
 .bigtext {
@@ -64,4 +77,39 @@ p {
 .cycle {
 	width:100%;
 	max-width:900px;
+}
+
+/*.albumcover{
+	width:100%;
+	max-width: 500px;
+}
+*/
+.album {
+/*	display: block;
+*/	display: flex;
+	flex: flex-wrap;
+	justify-content: center;
+	align-items: flex-start;
+	width: 100%;
+	max-width: 1000px;
+}
+
+.album img {
+	width:100%;
+	max-width: 500px;
+}
+
+.songlist{
+	display: 
+	width: 100%;
+	max-width: 400px;
+}
+
+.songlist li {
+	list-style-type: none;
+	text-decoration-style: none;
+	margin-bottom: 5px;
+	color: white;
+	font-size: 23px;
+	font-family: Raleway Medium;
 }
