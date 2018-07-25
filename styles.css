@@ -2,11 +2,14 @@
 
 body {
 	background-color: #F5D1D1;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Montserrat', sans-serif; 
 	color: #6DBDC9;
 
 }
 
+img {
+	margin-top: 20px;
+}
 header {
 	font-family: Montserrat SemiBold;
 	font-size: 37px;
@@ -41,15 +44,24 @@ a {
 	text-decoration: none;
 }
 
+p {
+	font-family: Raleway Medium;
+}
+
 .bigtext {
 	display: flex;
 	flex: flex-wrap;
 	align-items: center;	
-	margin-top: 40px;
+	margin-top: 10px;
 }
 
 .flex {
 	width:100%;
 	max-width: 900px;
 	margin:auto;
+}
+
+.cycle {
+	width:100%;
+	max-width:900px;
 }
