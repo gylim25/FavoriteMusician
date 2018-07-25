@@ -9,23 +9,47 @@ body {
 
 header {
 	font-family: Montserrat SemiBold;
+	font-size: 37px;
+	max-width: 350px;
+	text-align: right;
+	margin-right: 10px;
 }
 
 h1 {
 	font-family: Montserrat SemiBold;
 	font-size: 100px;
+	margin:0;
+	margin-left: 10px;
 }
 
 nav ul {
 	list-style-type: none;
 	text-align:right;
+	margin-top: 50px;
 }
 
 nav li {
 	display: inline;
 	color: #6DBDC9;
+	font-size: 30px;
+	font-family: Montserrat SemiBold;
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
 a {
 	text-decoration: none;
+}
+
+.bigtext {
+	display: flex;
+	flex: flex-wrap;
+	align-items: center;	
+	margin-top: 40px;
+}
+
+.flex {
+	width:100%;
+	max-width: 900px;
+	margin:auto;
 }
