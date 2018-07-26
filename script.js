@@ -2,7 +2,9 @@
 
 $(document).ready(function(){
 
-$(".moreinfo").hide();
+$(".dinfo").hide();
+$(".dsides").fadeIn("slow");
+
 let imgCycle= 1;
 
 	$(".cycle").click(function(){
@@ -16,8 +18,8 @@ let imgCycle= 1;
 		}
 	});
 
-	$("dsides").click(function(){
-        $("").fadeIn();
+	$(".dsides").click(function(){
+    $(".dinfo").fadeIn("<p id='dinfo'>");
 
     });
 
