@@ -2,6 +2,7 @@
 
 $(document).ready(function(){
 
+$(".moreinfo").hide();
 let imgCycle= 1;
 
 	$(".cycle").click(function(){
@@ -14,5 +15,10 @@ let imgCycle= 1;
 			imgCycle=1;
 		}
 	});
+
+	$("dsides").click(function(){
+        $("").fadeIn();
+
+    });
 
 })

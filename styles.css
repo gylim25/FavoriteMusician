@@ -51,14 +51,18 @@ a:hover {
 
 p {
 	font-family: Raleway Medium;
-	font-size: 28px;
+	font-size: 26px;
 	color: white;
 }
 
 .blueback {
 	background-color: #6CBDC9;
 	width: 100%;
-	max-width: 1100px;
+	max-width: 1250px;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	padding-bottom: 15px;
 }
 
 .bigtext {
@@ -66,6 +70,11 @@ p {
 	flex: flex-wrap;
 	align-items: center;	
 	margin-top: 10px;
+}
+
+.bigtext h1{
+	text-decoration: none;
+	color:#6CBDC9;
 }
 
 .flex {
@@ -79,11 +88,6 @@ p {
 	max-width:900px;
 }
 
-/*.albumcover{
-	width:100%;
-	max-width: 500px;
-}
-*/
 .album {
 /*	display: block;
 */	display: flex;
@@ -91,25 +95,62 @@ p {
 	justify-content: center;
 	align-items: flex-start;
 	width: 100%;
-	max-width: 1000px;
+	max-width: 1100px;
+	margin: auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
 }
 
 .album img {
 	width:100%;
-	max-width: 500px;
+	max-width: 400px;
 }
 
 .songlist{
-	display: 
 	width: 100%;
-	max-width: 400px;
+	max-width: 550px;
 }
 
 .songlist li {
 	list-style-type: none;
 	text-decoration-style: none;
-	margin-bottom: 5px;
+	margin-bottom: 10px;
 	color: white;
-	font-size: 23px;
+	font-size: 21px;
 	font-family: Raleway Medium;
+}
+
+.songlist p {
+	margin-left: 40px;
+}
+
+.info {
+	width: 100%;
+	max-width: 400px;
+}
+
+.info p {
+	font-size: 19px;
+	
+}
+
+.damon {
+	display: flex;
+	flex: flex-wrap;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	max-width: 900px;
+	margin:auto;
+}
+
+.damon p {
+	margin-left: 50px;
+	margin-right: 50px;
+	font-size: 21px;
+}
+
+.damon img {
+	width: auto;
+	min-height: 300px; 
 }
